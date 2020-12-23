@@ -244,6 +244,7 @@ nav ul li + li + li {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 50px;
 }
 
 
@@ -280,14 +281,18 @@ form textarea {
 }
 
 form textarea {
-    height: 160px;
+    margin-bottom: 10px;
 }
 
 .backTT{
-  padding-top:150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 footer{
+    margin-top: 10px;
     display: flex;
     background-color: #457b9d;
     padding-bottom: 20px;
