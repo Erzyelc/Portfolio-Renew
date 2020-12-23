@@ -322,7 +322,7 @@ a:link {
     color: #e07a5f;
   }
 
-@media(max-width: 480px) {
+@media(max-width: 600px) {
     .container{
         width: 100vw;
     }
@@ -331,6 +331,25 @@ a:link {
     .panel:nth-of-type(5) {
         display: none;
     }
+
+    .panel h5 {
+        bottom: 300px;
+        left: 20px;
+    }
+
+    .panel h6 {
+        bottom: 250px;
+        left: 20px;
+    }
+
+    .panel p{
+        bottom: 80px;
+        left: 20px;
+    }
+}
+
+@media(max-width: 600px) {
+    .container
 }
 
 
