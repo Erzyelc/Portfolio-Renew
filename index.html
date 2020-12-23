@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Rotating Navigation</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content" id = 'home'>
+            <h1>Ryan Carpenter</h1>
+            <small>Software Engineer</small>
+            <p>I am a aspiring software engineer with a passion for technology! I currently live in Philadelphia, PA and I am 21 years old with a desire to learn</p>
+        
+            <img src="IMG_0367.JPG" alt = 'Me' />
+            <p id = 'about'>Welcome to my portfolio!</p>
+            <p>Thanks for visiting my page, if you want a beautiful, efficient, website you have come to the right place!
+                I would love to help make your dream website become a reality!
+            </p>
+
+            <ul>
+                <li>Eager to work with teams to collaborate on projects</li>
+                <li>My passions outside of coding include:
+                    <ul>
+                        <li>Hockey</li>
+                        <li>Photography</li>
+                        <li>Gaming</li>
+                    </ul>
+                </li>
+                <li>I would love to benefit your team by creating a website, handling projects, or even getting coffee!</li>
+            </ul>
+
+            <!--<h4>Below are a few of my projects</h4>-->
+            <section class="section3" id = 'projects'>
+                <div class="projects">
+                    <div class="panel active">
+                      <div class="languages">
+                        <h4>Languages Used</h4>
+                        <ul>
+                          <li>JavaScript</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                        </ul>
+                        <p>A simple project to quiz your knowledge on StarWars</p>
+                      </div>
+                      <h5><a href="https://github.com/Erzyelc/Quiz-App">Github Repo</a></h5>
+                      <h6><a href="https://erzyelc.github.io/Quiz-App/">Website</a></h6>
+                        <h3>Quiz-App</h3>
+                    </div>
+                    <div class="panel">
+                      <div class="languages">
+                        <h4>Languages Used</h4>
+                        <ul>
+                          <li>JavaScript</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                        </ul>
+                        <p>A simple app to find national parks in your state</p>
+                      </div>
+                        <h3>National-Park Finder</h3>
+                        <h5><a href="https://github.com/Erzyelc/National---Park---Finder">Github Repo</a></h5>
+                        <h6><a href="https://erzyelc.github.io/National---Park---Finder/">Website</a></h6>
+                    </div>
+                    <div class="panel">
+                      <div class="languages">
+                        <h4>Languages Used</h4>
+                        <ul>
+                          <li>JavaScript</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                        </ul>
+                        <p>A simple app to search for a users repos on github</p>
+                      </div>
+                        <h3>Github-Api</h3>
+                        <h5><a href="https://github.com/Erzyelc/Github-API">Github Repo</a></h5>
+                        <h6><a href="https://erzyelc.github.io/Github-API/">Website</a></h6>
+                    </div>
+                    <div class="panel">
+                      <div class="languages">
+                        <h4>Languages Used</h4>
+                        <ul>
+                          <li>JavaScript</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                        </ul>
+                        <p>A simple app that returns however many dog pictures you want</p>
+                      </div>
+                        <h3>Dog-App</h3>
+                        <h5><a href="https://github.com/Erzyelc/Dog-App">Github Repo</a></h5>
+                        <h6><a href="https://erzyelc.github.io/Dog-App/">Website</a></h6>
+                    </div>
+                    <div class="panel">
+                      <div class="languages">
+                        <h4>Languages Used</h4>
+                        <ul>
+                          <li>JavaScript</li>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                        </ul>
+                        <p>A simple app to keep track of your shopping list</p>
+                      </div>
+                        <h3>Shopping-List</h3>
+                        <h5><a href="https://github.com/Erzyelc/Shopping-List">Github Repo</a></h5>
+                        <h6><a href="https://erzyelc.github.io/Shopping-List/">Website</a></h6>
+                    </div>
+                </div> 
+                <a href="#contact" id = 'arrowDown'><img src="iconmonstr-angel-down-thin.svg" alt=""/></a>
+            </section>
+
+            <section class="section4"  id = 'contact'> 
+                <section class = "form-contact">
+                    <h2>Contact Form</h2>
+                    <div class="group">
+                      <div class="item-double">
+                        <form action="https://formspree.io/f/xnqovgag"
+                        method="POST">
+                          <label for="user-name">Name:</label>
+                          <input id="user-name" type="text" name= "name" required>
+                
+                          <label for="user-email">Email:</label>
+                          <input id="user-email" type="text" name= "email" required>
+                
+                          <label for="user-message">Message:</label>
+                          <textarea id="user-message" name= "message"></textarea>
+                          <button type="submit" class = "button">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                    <a href="#home" class = 'backTT'>Back To Top</a>
+                   </section>
+            </section>            
+
+       
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href = '#home'><i class="fas fa-home"></i>Home</a></li>
+            <li><a href = '#about'><i class="fas fa-user-alt"></i>About</a></li>
+            <li><a href = '#contact'><i class="fas fa-envelope"></i>Contact</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/ryanjcarpenter">LinkedIn</a>
+        <a href="https://github.com/Erzyelc">Github</a>
+        <a href="https://www.instagram.com/erzyelc/">Instagram</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
