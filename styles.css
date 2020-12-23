@@ -240,7 +240,7 @@ nav ul li + li + li {
 }
 
 .form-contact{
-    padding-top: 200px;
+    padding-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -333,12 +333,12 @@ a:link {
     }
 
     .panel h5 {
-        bottom: 300px;
+        bottom: 250px;
         left: 20px;
     }
 
     .panel h6 {
-        bottom: 250px;
+        bottom: 200px;
         left: 20px;
     }
 
@@ -346,11 +346,12 @@ a:link {
         bottom: 80px;
         left: 20px;
     }
+
+    .panel {
+        height: 40vh;
+    }
 }
 
-@media(max-width: 600px) {
-    .container
-}
 
 
 
