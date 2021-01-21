@@ -22,7 +22,7 @@ body {
     width: 100vw;
     min-height: 100vh;
     padding: 50px;
-    background-color: #457b9d;
+    background-color: #00b4d8 ;
     color: #f1faee;
 }
 
@@ -155,6 +155,15 @@ nav ul li + li + li {
     margin: 10px;
     position: relative;
     transition: flex 0.7s ease-in;
+}
+
+.quiz {
+    background: url('Screen\ Shot\ 2021-01-21\ at\ 3.44.03\ PM.png') no-repeat  center;
+    
+}
+
+.capstone {
+    background: url('Screen\ Shot\ 2021-01-21\ at\ 3.21.25\ PM.png') no-repeat center;
 }
 
 .panel h3{
